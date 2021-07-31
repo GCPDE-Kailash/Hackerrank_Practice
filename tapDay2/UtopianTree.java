@@ -1,4 +1,4 @@
-package javalearn;
+package tapDay2;
 
 public class UtopianTree {
     static int utopianTree(int n){

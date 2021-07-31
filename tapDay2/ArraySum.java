@@ -1,6 +1,4 @@
-package javalearn;
-
-import java.util.List;
+package tapDay2;
 
 public class ArraySum {
     public static int simpleArraySum(int[] ar){

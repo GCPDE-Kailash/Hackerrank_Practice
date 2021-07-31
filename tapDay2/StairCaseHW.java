@@ -1,4 +1,4 @@
-package javalearn;
+package tapDay2;
 
 public class StairCaseHW {
     static void  stairCase(int n) {

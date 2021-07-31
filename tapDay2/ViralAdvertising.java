@@ -1,4 +1,4 @@
-package javalearn;
+package tapDay2;
 
 public class ViralAdvertising {
     static int viralAdvertise(int n){

@@ -1,4 +1,4 @@
-package javalearn;
+package tapDay2;
 
 public class CatAndMouse {
     static String catAndMouse(int x, int y, int z){

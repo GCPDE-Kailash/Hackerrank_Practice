@@ -1,4 +1,4 @@
-package javalearn;
+package tapDay2;
 
 public class FindDigits {
     static int findDigitsDivisor(int n){

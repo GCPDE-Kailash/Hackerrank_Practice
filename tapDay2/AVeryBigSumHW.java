@@ -1,17 +1,15 @@
-package javalearn;
+package tapDay2;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class AVeryBigSumHW {
-//    static int aVeryBigSum(int[] ar) {
+//    static int aVeryBigSum(List<Long> ar) {
 //        long sum = 0;
-//        for(long i = 0; i<ar.length; i++){
-//            sum = sum + ar[(int) i];
+//        for(int i = 0; i<ar.size(); i++){
+//            sum = sum + ar.get(i);
 //        }
-//        return (int) sum;
+//        return  sum;
 //    }
 
     public static void main(String[] args) {
