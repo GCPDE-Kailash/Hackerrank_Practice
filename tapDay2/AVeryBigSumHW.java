@@ -1,7 +1,10 @@
 package tapDay2;
 
+import java.util.Collections;
+import java.util.List;
+
 public class AVeryBigSumHW {
-    static long aVeryBigSum(long[] ar) {
+    static long aVeryBigSum(List<Long> ar) {
         long sum =0;
         for(long x: ar){
             sum += x;
@@ -10,8 +13,7 @@ public class AVeryBigSumHW {
     }
 
     public static void main(String[] args) {
-        long [] ar = new long[1+3+5+6];
-        System.out.println(aVeryBigSum(ar));
+        long ar = new Long(8);
+        System.out.println(aVeryBigSum(Collections.singletonList(ar)));
     }
-
 }
