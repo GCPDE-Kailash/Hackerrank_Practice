@@ -1,28 +1,32 @@
 package tapDay3;
-import java.util.Arrays;
+
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TheHurdleRace_HW {
-    static int theHurdleRace() {
-
-        int k =7; int n = 5;
-        int[] height = {2,5,4,5,2};
-        int a[] = new int[n];
-        for (int i = 0; i < n; i++) {
-
+    static int theHurdleRace(int k, List<Integer> height) {
+        int max = height.get(0);
+        for (int i = 0; i < height.size(); i++) {
+            if (height.get(i) > max) {
+                max = height.get(i);
+            }
         }
-        Arrays.sort(a);
-        int max = a[n - 1];
-        if (k >= a[n - 1]) {
-            System.out.println(0);
-        } else {
-            System.out.println(a[n - 1] - k);
+        if(k<max) {
+            return max - k;
+        }else {
+            return 0;
         }
-        return max;
     }
-
     public static void main(String[] args) {
-        int[] height = new int[]{1, 2, 3, 3, 2};
+        ArrayList<Integer> height = new ArrayList<>();
+        height.add(1);
+        height.add(2);
+        height.add(3);
+        height.add(3);
+        height.add(2);
         int k = 1;
-        System.out.println(theHurdleRace());
+        int n = 5;
+        System.out.println(theHurdleRace(k,height));
     }
 }
